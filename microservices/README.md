@@ -1,5 +1,7 @@
 # Microservices
 
+![Microservices Flow](../assets/microservices-simple-flow.jpg)
+
 To Create 4 microservices
 
 - customer-service
