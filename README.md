@@ -37,15 +37,22 @@ the idea is to solve real day-to-day challenges such as:
 - [ ] Microservice Product
 - [ ] Microservice Order
 - [ ] Microservice Shipping
-- [ ] [Eureka Server](https://dzone.com/articles/microservice-spring-cloud-eureka-server-configurat)
-- [ ] [Eureka Clients](https://dzone.com/articles/spring-cloud-amp-spring-bootimplementing-eureka-se)
+- [ ] [Eureka Server](documentation/EurekaServer.md)
+- [ ] [Eureka Client](documentation/EurekaClient.md)
+- [ ] [Config Server](documentation/ConfigServer.md)
+- [ ] [Zuul Gateway](documentation/ZuulGateway.md)
+- [ ] [Spring Boot Admin](documentation/SpringBootAdmin.md)
 - [ ] Synchronous Communication with Feign(Spring Cloud)
 - [ ] Circuit Breaker: Hystrix Clients - Spring Cloud
-- [ ] [Distributed Tracing](https://dzone.com/articles/spring-cloud-amp-spring-bootimplementing-zipkin-se)
+- [ ] [Distributed Tracing](documentation/DistributedTracing.md)
 - [ ] Asynchronous Communication with Kafka
 - [ ] Deploy Kubernetes
 - [ ] Infrastructure Provisioning with Terraform
 - [ ] CI / CD with Circle CI
+
+## :bookmark_tabs: Documentation
+
+[Microservices](microservices/README.md)
 
 ## :information_source: License 
 
