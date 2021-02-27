@@ -52,7 +52,7 @@ the idea is to solve real day-to-day challenges such as:
 
 ## :bookmark_tabs: Documentation
 
-[Microservices](microservices/README.md)
+[Microservices](documentation/README.md)
 
 ## :information_source: License 
 
