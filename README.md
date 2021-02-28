@@ -33,13 +33,13 @@ the idea is to solve real day-to-day challenges such as:
 
 ## :rocket: Features
 
-- [ ] Microservice Customer
-- [ ] Microservice Product
-- [ ] Microservice Order
-- [ ] Microservice Shipping
-- [ ] [Eureka Server](documentation/EurekaServer.md)
-- [ ] [Eureka Client](documentation/EurekaClient.md)
-- [ ] [Config Server](documentation/ConfigServer.md)
+- [x] Microservice Customer
+- [x] Microservice Product
+- [x] Microservice Order
+- [x] Microservice Shipping
+- [x] [Eureka Server](documentation/EurekaServer.md)
+- [x] [Eureka Client](documentation/EurekaClient.md)
+- [x] [Config Server](documentation/ConfigServer.md)
 - [ ] [Zuul Gateway](documentation/ZuulGateway.md)
 - [ ] [Spring Boot Admin](documentation/SpringBootAdmin.md)
 - [ ] Synchronous Communication with Feign(Spring Cloud)
