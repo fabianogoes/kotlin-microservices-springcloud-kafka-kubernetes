@@ -5,6 +5,7 @@ References
 - [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/reference/html/)
 - [Intro to Spring Cloud Config Server - dzone](https://dzone.com/articles/intro-to-spring-cloud-config-server)
 - [Microservices: Introduction to Spring Cloud Config Server and Config Client (Part 1)](https://springbootdev.com/2018/07/14/microservices-introduction-to-spring-cloud-config-server-with-client-examples/)
+- [Spring Cloud Config Retry](https://zoltanaltfatter.com/2018/09/30/spring-cloud-config-retry/)
 
 ## Configuration Config Server Applications
 
