@@ -1,0 +1,15 @@
+app:
+  messages:
+    welcome: Welcome to Shipping Service Local
+
+server:
+  port: 8084
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

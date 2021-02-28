@@ -1,0 +1,15 @@
+app:
+  messages:
+    welcome: Welcome to Product Service Local
+
+server:
+  port: 8082
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
