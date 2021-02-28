@@ -1,0 +1,38 @@
+version: "3.9"
+services:
+  discover-service:
+    container_name: discover-service
+    build:
+      context: ../infrastructure/discover-server
+      dockerfile: Dockerfile
+    ports:
+      - "8761:8761"
+    init: true
+    environment:
+      - "EUREKA_SERVER_HOST=discover-service"
+  config-server:
+    container_name: config-server
+    build:
+      context: ../infrastructure/config-server
+      dockerfile: Dockerfile
+    depends_on:
+      - discover-service
+    ports:
+      - "9092:9092"
+    restart: always
+    environment:
+      - "EUREKA_SERVER_HOST=discover-service"
+  customer-service:
+    container_name: customer-service
+    build:
+      context: ./customer-service
+      dockerfile: Dockerfile
+    depends_on:
+      - discover-service
+      - config-server
+    ports:
+      - "8081:8081"
+    init: true
+    environment:
+      - "EUREKA_SERVER_HOST=discover-service"
+      - "CONFIG_SERVER_HOST=config-server"

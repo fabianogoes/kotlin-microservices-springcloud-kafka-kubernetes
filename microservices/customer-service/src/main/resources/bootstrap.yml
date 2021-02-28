@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://${DISCOVERY_SERVER_HOST:localhost}:8761/eureka
+      defaultZone: http://${EUREKA_SERVER_HOST:localhost}:8761/eureka
 
 spring:
   profiles:
@@ -13,3 +13,8 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
+#      retry:
+#        max-attempts: 10
+#      name: ${spring.application.name}
+#      label: default
+#      uri: http://${CONFIG_SERVER_HOST:localhost}:9092
